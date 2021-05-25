@@ -1,0 +1,24 @@
+@media(max-width:767px) {
+    .aside-facebook { display: none;}
+}
+
+.section-facebook{
+    border-left: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+}
+.section-facebook > .fileDiv {
+    display: NONE;
+
+}
+.profile-inner {position: relative;}
+.profile-inner > .proflie {
+    position: absolute;
+    left:0;
+    top:0;
+}
+.profile-inner > .proflie-name {
+    padding-left: 50px;
+}
+.profile-inner > p {
+    margin-bottom: 0px;
+}
